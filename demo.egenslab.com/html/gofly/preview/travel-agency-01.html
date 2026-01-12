@@ -1,35 +1,34 @@
 <!doctype html>
 <html lang="en">
-
-
-<!-- Mirrored from demo.egenslab.com/html/gofly/preview/travel-agency-01.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 Dec 2025 04:06:17 GMT -->
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
+    <meta name="description" content="Israt Global Consulting - Professional tour and travel booking website offering customized travel packages, visa services, and seamless booking experience.">
+    <meta name="keywords" content="travel, tour packages, visa services, booking, travel agency, vacation, holiday">
+    <meta name="author" content="Israt Global Consulting">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="assets/css/bootstrap.min.css" as="style">
+    <link rel="preload" href="assets/css/style.css" as="style">
+    <link rel="preload" href="assets/img/igc.png" as="image">
+    
+    <!-- Critical CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/jquery-ui.css" rel="stylesheet">
-    <!-- Bootstrap Icon CSS -->
-    <link href="assets/css/bootstrap-icons.css" rel="stylesheet">
-    <!-- CSS -->
-    <link href="assets/css/animate.min.css" rel="stylesheet">
-    <!-- FancyBox CSS -->
-    <link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
-    <!-- Swiper slider CSS -->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-    <!-- Slick slider CSS -->
-    <link rel="stylesheet" href="assets/css/slick.css">
-    <link rel="stylesheet" href="assets/css/slick-theme.css">
-    <link rel="stylesheet" href="assets/css/daterangepicker.css">
-    <!-- BoxIcon  CSS -->
-    <link href="assets/css/boxicons.min.css" rel="stylesheet">
-    <!--  Style CSS  -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!-- Title -->
-    <title>Israt - Tour & Travel Booking Website.</title>
-    <link rel="icon" href="assets/img/fav-icon.svg" type="image/gif" sizes="20x20">
+    <link href="assets/css/style.css" rel="stylesheet">
+    
+    <!-- Non-critical CSS - load asynchronously -->
+    <link href="assets/css/jquery-ui.css" rel="stylesheet" media="print" onload="this.media='all'">
+    <link href="assets/css/bootstrap-icons.css" rel="stylesheet" media="print" onload="this.media='all'">
+    <link href="assets/css/animate.min.css" rel="stylesheet" media="print" onload="this.media='all'">
+    <link href="assets/css/jquery.fancybox.min.css" rel="stylesheet" media="print" onload="this.media='all'">
+    <link href="assets/css/swiper-bundle.min.css" rel="stylesheet" media="print" onload="this.media='all'">
+    <link href="assets/css/slick.css" rel="stylesheet" media="print" onload="this.media='all'">
+    <link href="assets/css/slick-theme.css" rel="stylesheet" media="print" onload="this.media='all'">
+    <link href="assets/css/daterangepicker.css" rel="stylesheet" media="print" onload="this.media='all'">
+    <link href="assets/css/boxicons.min.css" rel="stylesheet" media="print" onload="this.media='all'">
+    
+    <title>Israt Global Consulting - Tour & Travel Booking</title>
+    <link rel="icon" href="assets/img/fav-icon.svg" type="image/svg+xml">
 </head>
 
 <body class="tt-magic-cursor">
@@ -55,12 +54,12 @@
         <div class="container-fluid d-flex flex-nowrap align-items-center justify-content-between">
             <div class="logo-and-menu-area">
                 <a href="index.html" class="header-logo">
-                    <img src="assets/img/igc.png" alt="">
+                    <img src="assets/img/igc.png" alt="Israt Global Consulting Logo" width="120" height="40">
                 </a>
                 <div class="main-menu">
                     <div class="mobile-logo-area d-xl-none d-flex align-items-center justify-content-between">
                         <a href="index.html" class="mobile-logo-wrap">
-                            <img src="assets/img/igc.png" alt="">
+                            <img src="assets/img/igc.png" alt="Israt Global Consulting Logo" width="120" height="40">
                         </a>
                         <div class="menu-close-btn">
                             <i class="bi bi-x"></i>
@@ -599,7 +598,10 @@
                 <div class="swiper-slide">
                     <div class="banner-wrapper">
                         <div class="banner-video-area">
-                            <video autoplay loop muted playsinline src="assets/video/home2-banner-video.mp4"></video>
+                            <video autoplay loop muted playsinline preload="metadata" poster="assets/img/home2/banner-img1.jpg">
+                                <source src="assets/video/home2-banner-video.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
                         </div>
                         <div class="banner-content-wrap">
                             <div class="container">
@@ -614,7 +616,7 @@
                 <div class="swiper-slide">
                     <div class="banner-wrapper">
                         <div class="banner-img-area">
-                            <img src="assets/img/home2/banner-img1.jpg" alt="">
+                            <img src="assets/img/home2/banner-img1.jpg" alt="Travel destination banner" loading="lazy" width="1200" height="600">
                         </div>
                         <div class="banner-content-wrap">
                             <div class="container">
@@ -629,7 +631,7 @@
                 <div class="swiper-slide">
                     <div class="banner-wrapper">
                         <div class="banner-img-area">
-                            <img src="assets/img/home2/banner-img2.jpg" alt="">
+                            <img src="assets/img/home2/banner-img2.jpg" alt="Gateway to the world banner" loading="lazy" width="1200" height="600">
                         </div>
                         <div class="banner-content-wrap">
                             <div class="container">
@@ -3559,7 +3561,7 @@
                                     <p>Our trip to Bali was unforgettable! Everything was perfectly organized by the agency from start to finish.</p>
                                     <div class="author-area">
                                         <div class="author-img">
-                                            <img src="assets/img/home1/saiful.png" alt="">
+                                            <img src="assets/img/home1/saiful.jpeg" alt="">
                                         </div>
                                         <div class="author-info">
                                             <h5>Saiful Islam</h5>
@@ -4016,3 +4018,50 @@
 
 <!-- Mirrored from demo.egenslab.com/html/gofly/preview/travel-agency-01.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 Dec 2025 04:07:01 GMT -->
 </html>
+<!-- Optimized JavaScript loading -->
+<script>
+// Fallback for async CSS loading
+!function(e){"use strict";var t=function(t,n,r){function o(e){return i.body?e():void setTimeout(function(){o(e)})}function a(){d.addEventListener&&d.removeEventListener("load",a),d.media=r||"all"}var i=e.document,d=i.createElement("link");if(n)d.href=n;else{if(!t)return;d.href=t.href,d.rel=t.rel||"stylesheet"}d.media="only x",o(function(){i.head.appendChild(d)}),setTimeout(a,3e3),d.addEventListener&&d.addEventListener("load",a),d.onloadcssdefined=a};"undefined"!=typeof exports?exports.loadCSS=t:e.loadCSS=t}("undefined"!=typeof global?global:this);
+
+// Lazy load non-critical resources
+window.addEventListener('load', function() {
+    // Load remaining JavaScript files
+    const scripts = [
+        'assets/js/jquery-3.6.0.min.js',
+        'assets/js/bootstrap.bundle.min.js',
+        'assets/js/swiper-bundle.min.js',
+        'assets/js/jquery.fancybox.min.js',
+        'assets/js/slick.min.js',
+        'assets/js/daterangepicker.min.js',
+        'assets/js/wow.min.js',
+        'assets/js/main.js'
+    ];
+    
+    scripts.forEach(function(src, index) {
+        setTimeout(function() {
+            const script = document.createElement('script');
+            script.src = src;
+            script.async = true;
+            document.body.appendChild(script);
+        }, index * 100);
+    });
+});
+
+// Optimize images with intersection observer
+if ('IntersectionObserver' in window) {
+    const imageObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const img = entry.target;
+                img.src = img.dataset.src;
+                img.classList.remove('lazy');
+                imageObserver.unobserve(img);
+            }
+        });
+    });
+
+    document.querySelectorAll('img[data-src]').forEach(img => {
+        imageObserver.observe(img);
+    });
+}
+</script>
