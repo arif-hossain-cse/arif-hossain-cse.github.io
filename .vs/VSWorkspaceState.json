@@ -2,11 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\demo.egenslab.com",
+    "\\demo.egenslab.com\\html",
     "\\demo.egenslab.com\\html\\gofly",
     "\\demo.egenslab.com\\html\\gofly\\preview",
     "\\demo.egenslab.com\\html\\gofly\\preview\\assets",
     "\\demo.egenslab.com\\html\\gofly\\preview\\assets\\img",
-    "\\demo.egenslab.com\\html\\gofly\\preview\\assets\\img\\home1"
+    "\\demo.egenslab.com\\html\\gofly\\preview\\assets\\img\\innerpages"
   ],
+  "SelectedNode": "\\demo.egenslab.com\\html\\gofly\\preview\\assets\\img\\innerpages\\arif-signature.png",
   "PreviewInSolutionExplorer": false
 }
